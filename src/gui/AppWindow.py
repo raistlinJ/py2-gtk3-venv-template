@@ -15,9 +15,6 @@ class AppWindow(Gtk.ApplicationWindow):
         self.set_position(Gtk.WindowPosition.CENTER)
         self.set_border_width(5)
 
-        # TODO: fix error when soft saving
-        self.isRemoveVM = False
-
         # Layout container initialization
         self.windowBox = Gtk.Box(spacing=5)
 
@@ -34,5 +31,7 @@ class AppWindow(Gtk.ApplicationWindow):
 
     def initializeContainers(self):
         self.add(self.windowBox)
-
         self.windowBox.pack_end(self.stateLabel, True, True, 5)
+    
+    def on_delete():
+        #implement any behavior that should run on close
