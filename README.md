@@ -3,10 +3,10 @@
 
    Windows
    ```
-   install.bat
+   install_win.bat
    ```
    
    Linux
    ```
-   source ./install.sh
+   source ./install_linux.sh
    ```
