@@ -8,5 +8,6 @@
    
    Linux
    ```
+   sudo -s
    source ./install_linux.sh
    ```
