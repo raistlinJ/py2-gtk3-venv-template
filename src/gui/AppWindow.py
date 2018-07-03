@@ -35,3 +35,4 @@ class AppWindow(Gtk.ApplicationWindow):
     
     def on_delete():
         #implement any behavior that should run on close
+        {}
